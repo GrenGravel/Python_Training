@@ -5,3 +5,9 @@ def count_sheeps(array_of_sheep):
       if sheep:
           count += 1 
   return count
+
+
+Better:
+
+def count_sheeps(arrayOfSheeps):
+  return arrayOfSheeps.count(True)
