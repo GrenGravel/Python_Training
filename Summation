@@ -1,0 +1,9 @@
+def summation(num):
+    sum = 0
+    for i in range(num):
+        sum += i + 1
+    return sum
+
+Better:
+def summation(num):
+    return sum(range(1,num+1))
