@@ -2,5 +2,5 @@ sum array
 
 
 
-define sum_array(a)
+def sum_array(a)
   sum(a)
